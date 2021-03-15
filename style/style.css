@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+    
+  
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+}
+p,a{
+    font-family: 'Roboto', sans-serif;
+}
+.side-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px 40px;
+    padding-top: 15px;
+    
+
+ 
+
+}
+.active{
+    width:40% !important;
+    z-index: 20 !important;
+}
+.fa.fa-search
+{
+    text-align: center;
+    border-top-right-radius: 20px;
+    background:#fd5a5e;
+    border-bottom-right-radius: 20px;
+    width: 35px;
+    height: 35px;
+    margin-left: -35px;
+    line-height: 35px;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+.side-menu ul{
+
+  height:30px;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  transition: all 0.5s ease;
+  margin-left: 5px;
+    
+    
+}
+.main-header{
+    background-color: white;
+    box-shadow: 10px 10px 20px #bbb;
+    position: fixed;
+    width: 100%;
+}
+.header-left{
+    float: left;
+    width:32%;
+    padding:10px;
+    margin-top: 10px;
+}
+.toggle-btn i{
+    display: none;
+}
+.header-left img{
+    width:13%;
+    float: left;
+    padding-right: 10px;
+}
+.side-menu ul:hover{
+    background-color: rgba(14, 13, 13, 0.466);
+}
+.side-menu{
+    margin-top: 20px;
+}
+.side-menu li a span{
+    margin-left: 10px;
+}
+.search{
+    border-radius: 20px;
+    padding:3px 13px;
+    border: 2px solid #bbb;
+    transition: width 2s;
+}
+.search:focus{
+    outline: none;
+    border: 2px solid #fd5a5e;
+    width:80%;
+
+    
+}
+.menu-hide{
+    display: inline-block !important;
+}
+
+
+#sidebar{
+    height:100%;
+    width:20%;
+    color: white;
+    background-image:linear-gradient(rgba(155,60,183,0.9),rgba(255,57,111,0.9)), url(../images/marco-perretta-akNEjp2Fcjg-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 20;
+    background-color: red;
+    transition: all 1s ease;
+}
+.brand{
+    padding: 50px 40px;
+}
+.card-boxs{
+    float: left;
+    margin-top: 140px;
+}
+#main-content{
+    height:100%;
+  width:80%;
+  float: right;
+  
+}
+.card-boxs {
+    margin-left: 2%;
+    float: left;
+    margin-top: 140px;
+    margin-right: 2%;
+    padding:18px;
+    width: 21%;
+    color: white;
+    background: linear-gradient(45deg,#FF5252 0%,#f48fb1 100%);
+}
+.cus-h{
+    position: relative;
+}
+.cus-h:after{
+    content: "\f0c0";
+font-family: "FONTAWESOME";
+position: absolute;
+right: 0;
+
+}
+.cus-p{
+    position: relative;
+}
+.cus-p:after{
+    content: "\f0c0";
+font-family: "FONTAWESOME";
+position: absolute;
+right: 0;
+
+}
+.cus-o{
+    position: relative;
+}
+.cus-o:after{
+    content: "\f0c0";
+font-family: "FONTAWESOME";
+position: absolute;
+right: 0;
+
+}
+.cus-i{
+    position: relative;
+}
+.cus-i:after{
+    content: "\f15b";
+font-family: "FONTAWESOME";
+position: absolute;
+right: 0;
+
+}
+.pro-table{
+    float: left;
+    width:60%;
+    background-color: white;
+    box-shadow: 10px 10px 20px #bbb;
+}
+.cus-table{
+    float: right;
+    width: 30%;
+}
+.content-pro{
+    margin-top: 6%;
+    margin-left:5%;
+
+
+}
+@media screen and (max-width:760px){
+
+    .card-boxs {
+        float: none;
+        margin: 0 auto 20px auto;
+        width: 100%;
+     
+    }
+    .main-content-inf
+    {
+        margin-top: 120px;
+    }
+    .content-pro {
+        margin-top: 6%;
+        margin-left: 0%;
+    }
+    .pro-table {
+        float: none;
+        width: 100%;
+        
+        background-color: white;
+        box-shadow: 10px 10px 20px #bbb;
+    }
+    .cus-table {
+        float: none;
+        width: 100%;
+    }
+    .search-div
+    {
+        display: none;
+    }
+    .pro{
+        margin-left:-20px;
+        margin-right: 10px;
+    }
+    .header-left {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+    #main-content {
+        height: 100%;
+        width: 84%;
+       
+    }
+    .brand span{
+        display: none;
+    }
+    #sidebar{
+        width:16%
+    }
+    #sidebar ul li span{
+        display: none;
+    }
+    ul li a
+    {
+        padding: 0;
+    }
+    .toggle-btn i{
+        display: block;
+        margin-left: 20px;
+    }
+    .toggle-btn span{
+       display: none;
+       
+    }
+}
